@@ -549,6 +549,7 @@ section .section-header{
 .projectBox{
 	height: 420px;
 	width: 340px;
+	overflow-y: auto;
 	max-width: 340px;	/** fix for Slick Slide CSS **/
 	margin:10px 20px;
 	padding:0px;
@@ -717,6 +718,7 @@ section .section-header{
 	.eventBox, .youtubeBox,
 	.projectBox{
 		width:250px;
+		padding-bottom: 8px;
 		margin:10px 2px;
 	}
 	.youtubeBox>div>div{
